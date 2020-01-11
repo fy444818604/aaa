@@ -101,7 +101,7 @@ img{
 }
 
 .tab{
-	padding: 40px 0;
+	padding: 17px 0 50px 0;
 }
 
 .tab>li,.tab>li>a {
@@ -194,23 +194,23 @@ img{
 .third-title{
 	font-size: 36px;
 	font-weight: bold;
-	padding-top: 80px;
+	padding-top: 45px;
 	padding-bottom: 20px;
 }
 
 .third-msg{
-	width: 490px;
+	width: 465px;
 	margin: 0 auto;
-	font-size: 22px;
-	line-height: 30px;
+	font-size: 18px;
+	line-height: 35px;
 }
 
 .third-href{
-	font-size: 40px;
+	font-size: 36px;
 	padding: 10px 40px;
 	background-color: #C20C22;
 	border-radius: 10px;
-	margin: 20px 0;
+  letter-spacing: 3px;  font-weight: bold;	margin: 20px 0;
 	display: inline-block;
 }
 	
@@ -521,7 +521,7 @@ img{
 .second-title{
 	width: 700px;
 	margin: 0 auto;
-	padding-top: 40px;
+	padding-top: 30px;
 }
 .complanint-first{
 	width: 100%;
@@ -551,7 +551,7 @@ img{
 	bottom: 0;
 	right: 0;
 	z-index: 1;
-	background: rgba(255,255,255,.8);
+	background: rgba(255,255,255,.9);
 }
 .coop-phone{
 	font-size: 24px;
@@ -648,7 +648,7 @@ img{
 	background-color: rgb(34,25,20);
 }
 .door-second-tips{
-	width: 595px;
+	width: 634px;
 	height: 107px;
 	position: absolute;
 	left: 0;
@@ -665,7 +665,7 @@ img{
 	align-items: flex-start;
 	flex-direction: column;
 	padding: 0 25px;
-	background-color: rgba(81,63,63,.5);
+	background-color: rgba(81,63,63,.7);
 }
 .door-second-tips-left p{
 	color: #FFFFFF;
@@ -679,13 +679,13 @@ img{
 	justify-content: center;
 }
 .door-second-tips-right>div:first-child{
-	width: 35px;
+	width: 0px;
 	height: 35px;
 }
 .door-second-tips-right>div:nth-child(2){
 	color: #FFFFFF;
-	font-size: 24px;
-	margin-left: 10px;
+	font-size: 36px;
+  font-weight:bold;	
 	margin-right: 30px;
 }
 .door-second-tips-right>div:nth-child(3){
@@ -755,7 +755,7 @@ img{
 	align-items: center;
 }
 .v-title{
-	font-size: 20px;
+	font-size: 36px;
 	font-weight: bold;
 	margin-bottom: 10px;
 	letter-spacing: 2px;
@@ -809,7 +809,7 @@ img{
 	background: url(../image/brand-txt-bg.png);
 }
 .brand-second-container{
-	width: 1100px;
+	width: 900px;
 	margin: 0 auto;
 }
 .brand-txt-wrap{
@@ -829,7 +829,7 @@ img{
 	width: 100%;
 }
 .brand-img{
-	width: 100%;
+	width: 80%;   margin:0 auto
 }
 .brand-third{
 	background: #C5182C;
@@ -967,7 +967,7 @@ img{
 }
 .brand-award-right>div:first-child{
 	font-size: 28px;
-	margin-top: 20px;
+	margin-top: 20px;  font-weight:bold
 }
 .brand-award-right>div:nth-child(2){
 	font-size: 20px;
@@ -978,8 +978,7 @@ img{
 	color: rgba(255,255,255,.8);
 }
 .brand-award-right>div>p{
-	line-height: 35px;
-}
+	line-height: 35px;  font-size:18px}
 .brand-sixth{
 	height: 720px;
 	background: url(../image/brand-history.jpg) repeat-x;
@@ -1275,13 +1274,13 @@ img{
 }
 .join-third-top{
 	padding: 40px 0;
-	width: 800px;
+	width: 830px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 }
 .join-third-top-img{
-	width: 260px;
+	width: 420px;
 	display: flex;
 }
 .join-third-top-txt>div:first-child{
@@ -1302,7 +1301,7 @@ img{
 	font-size: 14px;
 }
 .join-third-btm{
-	width: 1080px;
+	width: 950px;
 	margin: 30px auto 0;
 }
 .join-third-btm>div,.join-tips{
@@ -1455,14 +1454,14 @@ img{
 	flex-direction: column;
 	align-items: center;
 	padding: 0 10px 20px;
-	width: 517px;
+	width: 580px;
 	left: 0;
 	right: 0;
 	margin: 0 auto;
-	top: 50px;
+	top: 70px;
 }
 .brand-sixth-wrap>.title{
-	font-size: 20px;
+	font-size: 28px;
 	color: #FFFFFF;
 	font-size: bold;
 	padding-top: 10px;
@@ -1470,7 +1469,7 @@ img{
 }
 .brand-sixth-wrap>.txt{
 	color: rgba(255,255,255,.8);
-}
+ font-size:18px}
 .join-seventh{
 	background: #C51A2D;
 }
@@ -1486,7 +1485,7 @@ img{
 	color: #FFFFFF;
 	font-weight: bold;
 	font-size: 20px;
-	padding-top: 40px;
+	padding-top: 117px;
 }
 .join-seventh-wrap-2{
 	margin-top: 15px;
@@ -1747,7 +1746,7 @@ img{
 	position: absolute;
 	top: 280px;
 	left: -60px;
-	font-size: 24px;
+	font-size: 18px;
 	white-space: pre-wrap; 
 	width: 336px;
 	text-align: justify;
@@ -1765,8 +1764,7 @@ img{
 	text-align: center;
 }
 .brand-seventh img{
-	width: 50%;
-	vertical-align: bottom;
+	width: 40%;     padding:20px 0;	vertical-align: bottom;
 }
 .menu_btn {
     position: absolute;
@@ -1850,9 +1848,10 @@ img{
 	top: 0;
 	bottom: 0;
 	right: 100vw;
-	z-index: 2;
+	z-index: 99;
 }
 .menu-nav .nav-list{
 	height: 100%;
 }
 
+.video-wrap.menu-nav>ul>li{border-right: 3px solid #ffffff;}
