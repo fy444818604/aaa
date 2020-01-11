@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="renderer" content="webkit" /> 
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<style type="text/css">
+			.focus_Box{position:relative;width:920px;height:308px;margin:20px auto;}
+			.focus_Box ul{position:relative;width:710px;height:308px}
+			.focus_Box li{z-index:0;position:absolute; width:0px;background:#787878;height:0px;top:146px;cursor:pointer;left:377px;border-radius:4px;}
+			.focus_Box li img{width:100%;background:url(images/loading.gif) no-repeat center 50%;height:100%;vertical-align:top}
+			.focus_Box li p{position:absolute;left:0;bottom:0px;width:100%;height:40px;line-height:40px;background:url(images/float-bg.png) repeat;text-indent:8px;color:#fff;}
+			.focus_Box li p span{display:inline-block;width:70%;height:40px;overflow:hidden;}
+			.focus_Box .prev,.focus_Box .next{display:block;z-index:100;overflow:hidden;cursor:pointer;position:absolute;width:52px;height:52px;top:131px;}
+			.focus_Box .prev{background:url(images/btn.png) left bottom no-repeat;left:0px}
+			.focus_Box .next{background:url(images/btn.png) right bottom no-repeat;right:0px} 
+			.focus_Box .prev:hover{background-position:left top;}
+			.focus_Box .next:hover{background-position:right top;}
+			.focus_Box a.imgs-scroll-btn{display:block;position:absolute;z-index:110;top:7px;right:15px;width:51px;height:23px;overflow:hidden;background:url(images/share-btn.png) no-repeat;text-indent:-999px;}
+			#focus_Box2,#focus_Box1{
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="video-wrap">
+				<div class="logo-wrap">
+					<a href="index.html">
+						<img src="image/5.png" alt="">
+					</a>
+					<div>
+						<img src="image/phone.png" alt="">
+					</div>
+				</div>
+				<video class="index-video" src="image/1.mp4" style="object-fit: cover;" autoplay="autoplay" muted="muted" loop="loop"></video>
+				<ul class="nav">
+					<li>
+						<div class="nav-list">
+							<a href="brand.html">
+								关于我们
+							</a>
+							<ul>
+								<li>品牌简介</li>
+								<li>品牌文化</li>
+								<li>品牌荣誉</li>
+								<li>发展历史</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="nav-list">
+							<a href="join.html">招商加盟</a>
+							<ul>
+								<li>加盟优势</li>
+								<li>合作支持</li>
+								<li>开业条件</li>
+								<li>加盟流程</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="nav-list">
+							<a href="greens.html">
+								菜品展示
+							</a>
+							<ul>
+								<li>特色菜品</li>
+								<li>主打小吃</li>
+								<li>特色锅底</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="nav-list">
+							<a href="door.html">门店展示</a>
+							<ul>
+								<li>新版门店</li>
+								<li>旧版门店</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="nav-list">
+							<a href="dynamic.html">最新动态</a>
+							<ul>
+								<li>品牌动态</li>
+								<li>行业动态</li>
+								<li>加盟问答</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="nav-list">
+							<a href="complaint.html">投诉及建议</a>
+							<ul>
+								<li>投诉区</li>
+								<li>建议区</li>
+								<li>在线咨询</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="second">
+				<div class="second-title">
+					<img src="image/7.png" class="swing wow" alt="">
+				</div>
+				<ul class="tab">
+					<li class="active">品牌动态</li>
+					<li><a href="dynamic.html">加盟问答</a></li>
+				</ul>
+				<ul class="brand-box">
+					<li class="bounceInLeft wow">
+						<img src="./image/1.jpg" alt="">
+						<div class="brand-box-msg">
+							<div>
+								斗城老妈砂锅串串(湾沚店)盛大开业
+							</div>
+							<div>
+								美食/舌尖上的美食斗城老妈砂锅串串(湾沚店)一年一度大事件来啦,除了股票上涨,还有我们斗城老妈砂锅串串湾沚店盛大开业
+							</div>
+							<div>
+								2019-10-29
+							</div>
+						</div>
+					</li>
+					<li class="bounceInUp wow">
+						<img src="./image/1.jpg" alt="">
+						<div class="brand-box-msg">
+							<div>
+								斗城老妈砂锅串串(湾沚店)盛大开业
+							</div>
+							<div>
+								美食/舌尖上的美食斗城老妈砂锅串串(湾沚店)一年一度大事件来啦,除了股票上涨,还有我们斗城老妈砂锅串串湾沚店盛大开业
+							</div>
+							<div>
+								2019-10-29
+							</div>
+						</div>
+					</li>
+					<li class="bounceInDown wow">
+						<img src="./image/1.jpg" alt="">
+						<div class="brand-box-msg">
+							<div>
+								斗城老妈砂锅串串(湾沚店)盛大开业
+							</div>
+							<div>
+								美食/舌尖上的美食斗城老妈砂锅串串(湾沚店)一年一度大事件来啦,除了股票上涨,还有我们斗城老妈砂锅串串湾沚店盛大开业
+							</div>
+							<div>
+								2019-10-29
+							</div>
+						</div>
+					</li>
+					<li class="bounceInRight wow">
+						<img src="./image/1.jpg" alt="">
+						<div class="brand-box-msg">
+							<div>
+								斗城老妈砂锅串串(湾沚店)盛大开业
+							</div>
+							<div>
+								美食/舌尖上的美食斗城老妈砂锅串串(湾沚店)一年一度大事件来啦,除了股票上涨,还有我们斗城老妈砂锅串串湾沚店盛大开业
+							</div>
+							<div>
+								2019-10-29
+							</div>
+						</div>
+					</li>
+				</ul>
+				<ul class="tab tab1">
+					<li class="active">菜品展示</li>
+					<li>主打小吃</li>
+					<li>精选盘菜</li>
+				</ul>
+				<div class="banner-box">
+					<div id="focus_Box0" class="focus_Box">
+						<span class="prev">&nbsp;</span>
+						<span class="next">&nbsp;</span>
+						<ul>
+							<li>
+								<a><img width="445" height="308" alt="Photo sharing jq22" src="image/banner-1.jpg" /></a>
+								<p>
+									<!-- <span>菜品名称</span> -->
+									<!-- <a href="#" class="imgs-scroll-btn">分享</a> -->
+								</p>
+							</li>
+							<li>
+								<a><img width="445" height="308" alt="Photo sharing jq22" src="image/banner-2.jpg" /></a>
+								<p>
+									<!-- <span>菜品名称</span> -->
+									<!-- <a href="#" class="imgs-scroll-btn">分享</a> -->
+								</p>
+							</li>
+							<li>
+								<a><img width="445" height="308" alt="Photo sharing jq22" src="image/banner-3.jpg" /></a>
+								<p>
+									<!-- <span>菜品名称</span> -->
+									<!-- <a href="#" class="imgs-scroll-btn">分享</a> -->
+								</p>
+							</li>
+							<li>
+								<a><img width="445" height="308" alt="Photo sharing" src="image/banner-4.jpg" /></a>
+								<p>
+									<!-- <span>菜品名称</span> -->
+									<!-- <a href="#" class="imgs-scroll-btn">分享</a> -->
+								</p>
+							</li>
+							<li>
+								<a><img width="445" height="308" alt="Photo sharing jq22" src="image/banner-5.jpg" /></a>
+								<p>
+									<!-- <span>菜品名称</span> -->
+									<!-- <a href="#" class="imgs-scroll-btn">分享</a> -->
+								</p>
+							</li>
+						</ul>
+					</div>
+					<div id="focus_Box1" class="focus_Box">
+						<span class="prev">&nbsp;</span>
+						<span class="next">&nbsp;</span>
+						<ul>
+							<li>
+								<a><img width="445" height="308" alt="Photo sharing jq22" src="image/banner-6.jpg" /></a>
+								<p>
+									<!-- <span>菜品名称</span> -->
+									<!-- <a href="#" class="imgs-scroll-btn">分享</a> -->
+								</p>
+							</li>
+							<li>
+								<a><img width="445" height="308" alt="Photo sharing jq22" src="image/banner-7.jpg" /></a>
+								<p>
+									<!-- <span>菜品名称</span> -->
+									<!-- <a href="#" class="imgs-scroll-btn">分享</a> -->
+								</p>
+							</li>
+							<li>
+								<a><img width="445" height="308" alt="Photo sharing jq22" src="image/banner-8.jpg" /></a>
+								<p>
+									<!-- <span>菜品名称</span> -->
+									<!-- <a href="#" class="imgs-scroll-btn">分享</a> -->
+								</p>
+							</li>
+							<li>
+								<a><img width="445" height="308" alt="Photo sharing" src="image/banner-9.jpg" /></a>
+								<p>
+									<!-- <span>菜品名称</span> -->
+									<!-- <a href="#" class="imgs-scroll-btn">分享</a> -->
+								</p>
+							</li>
+							<li>
+								<a><img width="445" height="308" alt="Photo sharing jq22" src="image/banner-10.jpg" /></a>
+								<p>
+									<!-- <span>菜品名称</span> -->
+									<!-- <a href="#" class="imgs-scroll-btn">分享</a> -->
+								</p>
+							</li>
+						</ul>
+					</div>
+					<div id="focus_Box2" class="focus_Box">
+						<span class="prev">&nbsp;</span>
+						<span class="next">&nbsp;</span>
+						<ul>
+							<li>
+								<a><img width="445" height="308" alt="Photo sharing jq22" src="image/banner-11.jpg" /></a>
+								<p>
+									<!-- <span>菜品名称</span> -->
+									<!-- <a href="#" class="imgs-scroll-btn">分享</a> -->
+								</p>
+							</li>
+							<li>
+								<a><img width="445" height="308" alt="Photo sharing jq22" src="image/banner-12.jpg" /></a>
+								<p>
+									<!-- <span>菜品名称</span> -->
+									<!-- <a href="#" class="imgs-scroll-btn">分享</a> -->
+								</p>
+							</li>
+							<li>
+								<a><img width="445" height="308" alt="Photo sharing jq22" src="image/banner-13.jpg" /></a>
+								<p>
+									<!-- <span>菜品名称</span> -->
+									<!-- <a href="#" class="imgs-scroll-btn">分享</a> -->
+								</p>
+							</li>
+							<li>
+								<a><img width="445" height="308" alt="Photo sharing" src="image/banner-14.jpg" /></a>
+								<p>
+									<!-- <span>菜品名称</span> -->
+									<!-- <a href="#" class="imgs-scroll-btn">分享</a> -->
+								</p>
+							</li>
+							<li>
+								<a><img width="445" height="308" alt="Photo sharing jq22" src="image/banner-15.jpg" /></a>
+								<p>
+									<!-- <span>菜品名称</span> -->
+									<!-- <a href="#" class="imgs-scroll-btn">分享</a> -->
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="third">
+				<div class="third-bg"></div>
+				<div class="third-top">
+					<div class="third-title">
+						乘未来市场大势打造行业风向标
+					</div>
+					<div class="third-msg">
+						品牌定位是市场定位的核心和集中表现。企业一旦选定了目标市场,就要设计并塑造自己相应的产品,品牌及企业形象,以争取目标消费者的认同。
+					</div>
+					<a class="third-href heartBeat wow" href="#">
+						我要加盟
+					</a>
+					<div class="third-com">
+						全国合作热线
+					</div>
+					<div class="third-com">
+						400-811-33377
+					</div>
+				</div>
+				<ul class="third-list">
+					<li class="slideInUp wow">
+						<div>品牌优势</div>
+						<div>好吃 易管 易开 易做</div>
+						<div>斗城老妈串串香首店开业以来，一举占领了新浪2017年十大串串之一。获得了广大消费者的喜爱,迅速打开了餐饮行业的市场知名度</div>
+					</li>
+					<li class="slideInUp wow">
+						<div>加盟模式</div>
+						<div>单店加盟 区域代理</div>
+						<div>我们秉承"还原80年代的老味道,给你小时候最初的情怀体验"的理念,就是要做你身边,最熟悉的老成都味道</div>
+					</li>
+					<li class="slideInUp wow">
+						<div>投资费用</div>
+						<div>投资小 回报高 二十几万即可轻松创业</div>
+						<div>斗城老妈串串香首店开业以来，一举占领了新浪2017年十大串串之一。获得了广大消费者的喜爱,迅速打开了餐饮行业的市场知名度</div>
+					</li>
+					<li class="slideInUp wow">
+						<div>合作支持</div>
+						<div>强大的运营团队 让您创业无后顾之忧</div>
+						<div>我们秉承"还原80年代的老味道,给你小时候最初的情怀体验"的理念,就是要做你身边,最熟悉的老成都味道</div>
+					</li>
+				</ul>
+				<ul class="third-tabs">
+					<li>
+						<img src="image/index-icon1.png" alt="图标">
+						<div>公司简介</div>
+					</li>
+					<li>
+						<img src="image/index-icon2.png" alt="图标">
+						<div>品牌文化</div>
+					</li>
+					<li>
+						<img src="image/index-icon3.png" alt="图标">
+						<div>加盟预约</div>
+					</li>
+				</ul>
+			</div>
+			<div class="fouth">
+				<div class="fouth-bg"></div>
+				<div class="common-title">
+					加盟流程
+				</div>
+				<div class="join-step">
+					<div>
+						<ul>
+							<li class="bounceInLeft wow" data-wow-duration="0.5s">
+								<div class="join-step-msg">
+									合作方了解和考查斗城老妈串串
+								</div>
+								<div class="join-step-num">1</div>
+							</li>
+							<li class="bounceInLeft wow" data-wow-duration="0.5s" data-wow-delay="1s">
+								<div class="join-step-msg">
+									提交预选场地、市调简要报告、提交场地考察申请。
+								</div>
+								<div class="join-step-num">3</div>
+							</li>
+							<li class="bounceInLeft wow" data-wow-duration="0.5s" data-wow-delay="2s">
+								<div class="join-step-msg">
+									签订正式的特许加盟合同
+								</div>
+								<div class="join-step-num">5</div>
+							</li>
+							<li class="bounceInLeft wow" data-wow-duration="0.5s" data-wow-delay="3s">
+								<div class="join-step-msg">
+									装修动工、筹备开业指导师傅
+								</div>
+								<div class="join-step-num">7</div>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<img src="image/4.png" alt="">
+					</div>
+					<div>
+						<ul>
+							<li class="bounceInRight wow" data-wow-duration="0.5s" data-wow-delay="0.5s">
+								<div class="join-step-num">2</div>
+								<div class="join-step-msg">具有意向合作方、斗城老妈总部对其合作方进行的综合考察。</div>
+							</li>
+							<li class="bounceInRight wow" data-wow-duration="0.5s" data-wow-delay="1.5s">
+								<div class="join-step-num">4</div>
+								<div class="join-step-msg">总部派专员对当地的餐饮市场、预选场地、消费者市场进行实地考察</div>
+							</li>
+							<li class="bounceInRight wow" data-wow-duration="0.5s" data-wow-delay="2.5s">
+								<div class="join-step-num">6</div>
+								<div class="join-step-msg">开店计划 装修设计进行</div>
+							</li>
+							<li class="bounceInRight wow" data-wow-duration="0.5s" data-wow-delay="3.5s">
+								<div class="join-step-num">8</div>
+								<div class="join-step-msg">筹备试营业及开业</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="flex">
+					<div class="red-phone">
+						<img src="./image/6.png" alt="">
+					</div>
+					<div class="fouth-contact">
+						<div>全国合作热线</div>
+						<div>400-811-3337</div>
+					</div>
+				</div>
+				<div class="fouth-bottom">诚挚邀请您的加盟，专业团队指导，让您创业不在困扰。</div>
+			</div>
+			<div class="fiveth">
+				<div class="common-title">
+					门店展示
+				</div>
+				<ul>
+					<li class="fadeIn wow" data-wow-duration="2s">
+						<img src="image/door-1.jpg" alt="">
+						<div class="door">
+							南陵旗舰店
+						</div>
+						<div>
+							DOUCHENGLAOMA
+						</div>
+						<div>
+							2019年加盟
+						</div>
+					</li>
+					<li class="fadeIn wow" data-wow-duration="2s">
+						<img src="image/door-1.jpg" alt="">
+						<div class="door">
+							南陵旗舰店
+						</div>
+						<div>
+							DOUCHENGLAOMA
+						</div>
+						<div>
+							2019年加盟
+						</div>
+					</li>
+					<li class="fadeIn wow" data-wow-duration="2s">
+						<img src="image/door-1.jpg" alt="">
+						<div class="door">
+							南陵旗舰店
+						</div>
+						<div>
+							DOUCHENGLAOMA
+						</div>
+						<div>
+							2019年加盟
+						</div>
+					</li>
+					<li class="fadeIn wow" data-wow-duration="2s">
+						<img src="image/door-1.jpg" alt="">
+						<div class="door">
+							南陵旗舰店
+						</div>
+						<div>
+							DOUCHENGLAOMA
+						</div>
+						<div>
+							2019年加盟
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="footer">
+				<div class="footer-wrap">
+					<ul>
+						<li>
+							<a href="#">
+								小蚁妹鸭肠火锅
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								功夫蚂蚁麻辣烫
+							</a>
+						</li>
+						<li>
+							<a href="index.html">
+								返回主页
+							</a>
+						</li>
+						<li>
+							<a href="join.html">
+								招商加盟
+							</a>
+						</li>
+						<li>
+							<a href="brand.html">
+								关于我们
+							</a>
+						</li>
+					</ul>
+					<div class="footer-logo-wrap">
+						<div class="footer-logo-wrap-left">
+							<img src="image/5.png" alt="">
+							<div>此网站为成都斗城老妈餐饮有限公司唯一官方认证网站</div>
+						</div>
+						<div class="footer-phone">
+							<div>全国合作热线</div>
+							<div>400 811 3337</div>
+						</div>
+					</div>
+					<div>联系我们</div>
+					<div class="address">
+						<div>
+							<div>
+								<div>合作热线:</div>
+								<div>180 8088 7007 400 811 3337</div>
+							</div>
+							<div>
+								<div>QQ:</div>
+								<div>355174438</div>
+							</div>
+							<div>
+								<div>地址:</div>
+								<div>成都市人民北路二段168号金牛万达甲级写字楼B座3503-04</div>
+							</div>
+							<div>
+								<div>电子邮件:</div>
+								<div>355174438@QQ.COM</div>
+							</div>
+						</div>
+						<div>
+							<div>
+								<div>公司网址:</div>
+								<div>www.douchenglm.com</div>
+							</div>
+							<div>
+								<div>乘坐路线:</div>
+								<div>16路 27路 28路 34路(人民北路二段站)</div>
+							</div>
+							<div>
+								<div style="width: 70px;"></div>
+								<div>地铁一号线人民北路下(步行约500米)</div>
+							</div>
+						</div>
+						<div>
+							<img src="image/3.jpg" alt="">
+							<div>官方微信公众号</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					蜀ICP备 16021954号 版权所有2019成都斗城老妈餐饮有限公司ALL RIGHTS RESERVED
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="plugins/jquery.js"></script>
+	<script src="js/ZoomPic.js"></script>
+	<script src="js/WOW.js" type="text/javascript" charset="utf-8"></script>
+	<!-- <script type="text/javascript" src="plugins/slimscroll/jquery.slimscroll.js"></script> -->
+	<script type="text/javascript">
+	 // $('.container').slimScroll({
+		//  height:'100vh'
+	 // });
+	$('.nav>li').hover(function(){
+		$(this).find('.nav-list').stop().animate({
+			height:'100%'
+		})
+	},function(){
+		$(this).find('.nav-list').stop().animate({
+			height:'0'
+		})
+	})
+	new WOW().init();
+
+	$('.tab1>li').click(function(){
+		var index = $(this).index()
+		$(this).addClass('active').siblings().removeClass('active');
+		$('.focus_Box').hide();
+		$(`#focus_Box${index}`).show();
+	})
+	new ZoomPic("focus_Box0");
+	new ZoomPic("focus_Box1");
+	new ZoomPic("focus_Box2");
+	</script>
+</html>
